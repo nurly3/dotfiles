@@ -41,3 +41,4 @@ nwg-look
 rustup
 dunst
 dashlane-cli-git
+yarn
