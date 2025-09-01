@@ -4,6 +4,7 @@ end
 
 set -U fish_greeting
 starship init fish | source
+export EDITOR=nvim
 
 alias toggle "astal-mpris play-pause"
 alias neovim nvim
