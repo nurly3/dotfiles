@@ -7,6 +7,4 @@ starship init fish | source
 export EDITOR=nvim
 
 alias toggle "astal-mpris play-pause"
-alias neovim nvim
-alias vim nvim
-alias v nvim
+alias ce "chezmoi edit"
