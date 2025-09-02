@@ -43,5 +43,7 @@ ttf-jetbrains-mono-nerd
 typescript-language-server
 prettier
 btop
-aylurs-gtk-shell
+aylurs-gtk-shell-git
 libastal-meta
+gtk4
+gjs
