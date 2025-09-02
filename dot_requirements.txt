@@ -25,7 +25,6 @@ python
 matugen-bin
 swaync
 python-gobject
-fabric-cli-git
 kitty
 proton-vpn-gtk-app
 gtk-layer-shell
