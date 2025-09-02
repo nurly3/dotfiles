@@ -12,7 +12,7 @@
     },
     "custom/applauncher": {
         "format": "󰣇",
-        "on-click": "fuzzel --width 50 -a top-left",
+        "on-click": "fuzzel --width 25 -a top-left",
         "tooltip": false
     },
     "tray": {
