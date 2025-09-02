@@ -1,6 +1,5 @@
 niri-git
 neovim
-waybar
 npm
 zen-browser-bin
 fish
