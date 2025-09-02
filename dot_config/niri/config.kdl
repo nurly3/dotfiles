@@ -11,7 +11,6 @@ spawn-at-startup "swww-daemon"
 spawn-sh-at-startup "brightnessctl -s 100%"
 spawn-sh-at-startup "wl-paste --type text --watch cliphist store"
 spawn-sh-at-startup "wl-paste --type image --watch cliphist store"
-spawn-at-startup "waybar"
 spawn-at-startup "swaync"
 
 input {
@@ -262,7 +261,6 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 
-// This line starts waybar, a commonly used bar for Wayland compositors.
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -580,7 +578,6 @@ binds {
     Mod+V { spawn-sh "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"; }
     Mod+Alt+V { spawn-sh "cliphist list | fuzzel --dmenu | cliphist delete"; }
 
-    Mod+Ctrl+Alt+R { spawn-sh "killall waybar;waybar"; }
 
     Mod+F2 { spawn "brightnessctl" "s" "10%-"; }
     Mod+F3 { spawn "brightnessctl" "s" "10%+"; }

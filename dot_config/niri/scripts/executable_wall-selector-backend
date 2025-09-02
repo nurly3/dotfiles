@@ -9,7 +9,5 @@ IMAGE=$1
 
 swww img "$IMAGE" --transition-type center --transition-duration 1 --transition-fps=144
 matugen image "$IMAGE"
-killall waybar
-waybar >/dev/null 2>&1 &
 killall swaync
 swaync >/dev/null 2>&1 &
