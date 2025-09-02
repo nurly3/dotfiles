@@ -41,3 +41,4 @@ nwg-look
 rustup
 dunst
 alsa-utils
+zellij
