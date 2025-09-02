@@ -42,3 +42,4 @@ rustup
 dunst
 alsa-utils
 zellij
+ttf-jetbrains-mono-nerd

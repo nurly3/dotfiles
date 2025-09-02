@@ -1,0 +1,19 @@
+{
+    "layer": "top",
+    "modules-left": ["custom/applauncher", "niri/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray"],
+    "niri/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}",
+    },
+    "custom/applauncher": {
+        "on-click": "fuzzel --width 50 -a top-left",
+        "tooltip": false
+    },
+    "tray": {
+        "spacing": 50
+    }
+}
