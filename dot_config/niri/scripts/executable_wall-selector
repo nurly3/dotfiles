@@ -10,19 +10,19 @@ IFS=$'\n'
 
 # Recursively list jpg/png images and pipe to fuzzel with icons
 SELECTED_WALL=$(
-  find . -type f \( -iname "*.jpg" -o -iname "*.png" \) |
-  sort |
-  while read -r a; do
-    # remove leading ./ for cleaner display
-    name="${a#./}"
-    printf '%s\0icon\x1f%s\n' "$name" "$a"
-  done |
-  fuzzel --dmenu
+    find . -type f \( -iname "*.jpg" -o -iname "*.png" \) |
+        sort |
+        while read -r a; do
+            # remove leading ./ for cleaner display
+            name="${a#./}"
+            printf '%s\0icon\x1f%s\n' "$name" "$a"
+        done |
+        wofi --show dmenu -p ''
 )
 
 # If not empty, run your backend
 if [ -n "$SELECTED_WALL" ]; then
-   ~/.config/niri/scripts/wall-selector-backend "$WALL_DIR/$SELECTED_WALL"
+    ~/.config/niri/scripts/wall-selector-backend "$WALL_DIR/$SELECTED_WALL"
 fi
 
 cd "$CWD" || exit 0
