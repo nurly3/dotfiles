@@ -17,7 +17,7 @@ SELECTED_WALL=$(
             name="${a#./}"
             printf '%s\0icon\x1f%s\n' "$name" "$a"
         done |
-        wofi --show dmenu -p ''
+        fuzzel --dmenu
 )
 
 # If not empty, run your backend
