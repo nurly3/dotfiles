@@ -1,8 +1,9 @@
 {
     "layer": "top",
     "modules-left": ["custom/applauncher", "niri/window"],
+    "height": 30,
     "modules-center": ["clock"],
-    "modules-right": ["tray"],
+    "modules-right": ["tray", "wireplumber"],
     "niri/window": {
         "max-length": 50
     },
@@ -10,6 +11,7 @@
         "format-alt": "{:%a, %d. %b  %H:%M}",
     },
     "custom/applauncher": {
+        "format": "󰣇",
         "on-click": "fuzzel --width 50 -a top-left",
         "tooltip": false
     },
