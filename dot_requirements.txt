@@ -43,5 +43,6 @@ zellij
 ttf-jetbrains-mono-nerd
 typescript-language-server
 prettier
+btop
 aylurs-gtk-shell
 libastal-meta
