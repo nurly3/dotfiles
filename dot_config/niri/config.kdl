@@ -20,7 +20,7 @@ input {
             // For more information, see xkeyboard-config(7).
 
             layout "us"
-            variant "colemak"
+            variant "dvorak"
             options "ctrl:nocaps"
         }
 
