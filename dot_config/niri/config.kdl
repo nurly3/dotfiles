@@ -19,9 +19,9 @@ input {
             // You can set rules, model, layout, variant and options.
             // For more information, see xkeyboard-config(7).
 
-            layout "us,us"
+            layout "us"
             variant "colemak"
-            options "grp:win_space_toggle,ctrl:nocaps"
+            options "ctrl:nocaps"
         }
 
         // Enable numlock on startup, omitting this setting disables it.
