@@ -22,6 +22,8 @@ input {
             options "ctrl:nocaps"
         }
 
+        repeat-delay 600
+        repeat-rate 25
         // Enable numlock on startup, omitting this setting disables it.
         numlock
     }
